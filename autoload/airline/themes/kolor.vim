@@ -2,13 +2,10 @@ let g:airline#themes#kolor#palette = {}
 
 let s:N1 = [ '#e2e2e2' , '#4f3598' , 254 , 56  ]
 let s:N2 = [ '#ff5fd7' , '#242322' , 206 , 234 ]
-let s:N3 = [ '#e2e2e2' , '#4a4a4a' , 254 , 238 ]
+let s:N3 = [ '#e2e2e2' , '#4f3598' , 254 , 238 ]
 
 let g:airline#themes#kolor#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 
-let g:airline#themes#kolor#palette.normal = {
-      \ 'airline_c': [ '#e2e2e2' , '#4f3598' , 254     , 56      , ''     ] ,
-      \ }
 let g:airline#themes#kolor#palette.normal_modified = {
       \ 'airline_c': [ '#e2e2e2' , '#4f3598' , 254     , 56      , ''     ] ,
       \ }
